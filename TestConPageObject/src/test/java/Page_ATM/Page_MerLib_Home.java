@@ -19,10 +19,7 @@ public class Page_MerLib_Home {
 	
 	public void iniciarDriver(WebDriver driver) {
 		 this.driver = driver;
-		    if (!driver.getTitle().equals("https://www.mercadolibre.com.ar/registration?confirmation_url=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fregistration%3Fconfirmation_url%3Dhttps%253A%252F%252Fwww.mercadolibre.com.ar%252F%26rtx%3D37bcaf18-c67f-4f96-89ca-5be2a2414973#nav-header")) {
-		      throw new IllegalStateException("Esta no es la pagina de crear usuario," +
-		            " La pagina actual es: " + driver.getCurrentUrl());
-		    }
+		  
 		  }
 
 	
