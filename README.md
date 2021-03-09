@@ -1,5 +1,5 @@
 # testSeleniumPOModels
-carga de datos a mercado libre 
+##carga de datos a mercado libre 
 use sikuli http://www.sikuli.org/
 descargar e instalar sikulixsetup-1.1.3 
 para el screen de los elementos sikulixide-2.0.4
